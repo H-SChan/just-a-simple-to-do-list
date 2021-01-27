@@ -1,0 +1,6 @@
+spring:
+  datasoure:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/listlist?autoReconnect=true&useSSL=fals
+    username: root
+    password: 11111111

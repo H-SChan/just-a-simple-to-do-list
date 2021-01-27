@@ -15,6 +15,11 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//mybatis
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	//mysql
+	implementation 'mysql:mysql-connctor-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
